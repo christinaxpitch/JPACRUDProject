@@ -16,11 +16,11 @@ CREATE SCHEMA IF NOT EXISTS `snowdaydb` DEFAULT CHARACTER SET utf8 ;
 USE `snowdaydb` ;
 
 -- -----------------------------------------------------
--- Table `mountains`
+-- Table `mountain`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `mountains` ;
+DROP TABLE IF EXISTS `mountain` ;
 
-CREATE TABLE IF NOT EXISTS `mountains` (
+CREATE TABLE IF NOT EXISTS `mountain` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `name` VARCHAR(45) NOT NULL,
   PRIMARY KEY (`id`))
@@ -39,10 +39,10 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 -- -----------------------------------------------------
--- Data for table `mountains`
+-- Data for table `mountain`
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `snowdaydb`;
-INSERT INTO `mountains` (`id`, `name`) VALUES (1, 'Arapahoe Basin');
+INSERT INTO `mountain` (`id`, `name`) VALUES (1, 'ArapahoeBasin');
 
 COMMIT;
