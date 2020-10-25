@@ -43,6 +43,6 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 START TRANSACTION;
 USE `snowdaydb`;
-INSERT INTO `mountain` (`id`, `name`) VALUES (1, 'ArapahoeBasin');
+INSERT INTO `mountain` (`id`, `name`) VALUES (1, 'Arapahoe Basin');
 
 COMMIT;

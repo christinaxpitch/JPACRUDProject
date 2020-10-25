@@ -46,7 +46,7 @@ class MountainTest {
 	@Test
 	void test_Mountain_entity_mapping() {
 		assertNotNull(mountain);
-		assertEquals("ArapahoeBasin", mountain.getName());
+		assertEquals("Arapahoe Basin", mountain.getName());
 		
 	}
 
